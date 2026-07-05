@@ -83,7 +83,34 @@ export default function RootLayout({
       lang="cs"
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
-      <body>{children}</body>
+      <body>
+  {children}
+
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "ConstructionCompany",
+        name: "GANSKY STAV s.r.o.",
+        url: "https://ganskystav.cz",
+        logo: "https://ganskystav.cz/favicon.ico",
+        description:
+          "Stavební firma z Českých Budějovic. Rekonstrukce bytů, domů, koupelen a kompletní stavební práce.",
+        address: {
+          "@type": "PostalAddress",
+          addressCountry: "CZ",
+          addressLocality: "České Budějovice",
+        },
+        contactPoint: {
+          "@type": "ContactPoint",
+          telephone: "+420 601 388 210",
+          contactType: "customer service",
+        },
+      }),
+    }}
+  />
+</body>
     </html>
   );
 }
