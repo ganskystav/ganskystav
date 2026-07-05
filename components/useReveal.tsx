@@ -20,4 +20,3 @@ export function useReveal() {
     elements.forEach((el) => observer.observe(el));
   }, []);
 }
-<section className="services reveal">
