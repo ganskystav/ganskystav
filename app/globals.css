@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #111111;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+section {
+  width: 100%;
+  padding: 120px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.5px;
+}
+
+p {
+  color: #555;
+}
+/* smooth reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+html {
+  scroll-behavior: smooth;
+}
+button, .header-btn, .hero-btn {
+  transition: all 0.25s ease;
+}
+
+button:active, .header-btn:active, .hero-btn:active {
+  transform: scale(0.96);
+}
+.service-card,
+.advantage-card,
+.process-card,
+.contact-card {
+  transition: all 0.3s ease;
+}
+
+.service-card:hover,
+.advantage-card:hover,
+.process-card:hover,
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+}
