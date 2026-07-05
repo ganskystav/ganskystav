@@ -24,9 +24,53 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GANSKY STAV s.r.o.",
+  metadataBase: new URL("https://ganskystav.cz"),
+
+  title: {
+    default: "GANSKY STAV s.r.o. | Stavební firma České Budějovice",
+    template: "%s | GANSKY STAV",
+  },
+
   description:
-    "Rekonstrukce bytů, domů a stavební práce v Českých Budějovicích.",
+    "Profesionální stavební společnost. Rekonstrukce bytů, domů, koupelen, stavební práce a kompletní realizace projektů po celé České republice.",
+
+  keywords: [
+    "stavební firma",
+    "rekonstrukce",
+    "rekonstrukce bytů",
+    "rekonstrukce domů",
+    "rekonstrukce koupelen",
+    "stavební práce",
+    "České Budějovice",
+    "GANSKY STAV",
+    "zednické práce",
+    "stavební společnost",
+  ],
+
+  authors: [{ name: "GANSKY STAV s.r.o." }],
+
+  creator: "GANSKY STAV s.r.o.",
+
+  publisher: "GANSKY STAV s.r.o.",
+
+  alternates: {
+    canonical: "https://ganskystav.cz",
+  },
+
+  openGraph: {
+    type: "website",
+    locale: "cs_CZ",
+    url: "https://ganskystav.cz",
+    siteName: "GANSKY STAV s.r.o.",
+    title: "GANSKY STAV s.r.o.",
+    description:
+      "Profesionální stavební firma z Českých Budějovic. Rekonstrukce, stavební práce a kompletní realizace projektů.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
