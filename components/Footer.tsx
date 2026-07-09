@@ -34,8 +34,8 @@ export default function Footer() {
 
           <h3>Kontakt</h3>
 
-          <a href="tel:+420601311380">
-            +420 601 311 380
+          <a href="tel:+420601345130">
+            +420 601 345 130
           </a>
 
           <br />
