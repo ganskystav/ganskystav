@@ -32,7 +32,7 @@ export default function Contact() {
 
             <div className="contact-item">
               <span>📞 Telefon</span>
-              <a href="tel:+420601311380">+420 601 311 380</a>
+              <a href="tel:+420601345130">+420 601 345 130</a>
             </div>
 
             <div className="contact-item">
