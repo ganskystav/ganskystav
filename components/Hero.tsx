@@ -11,17 +11,18 @@ export default function Hero() {
         </span>
 
         <h1>
-          Rekonstrukce,
-          <br />
-          stavební práce
-          <br />
-          a realizace projektů
-        </h1>
+  Stavební firma České Budějovice
+  <br />
+  Rekonstrukce bytů a domů
+  <br />
+  Construction Company Czech Republic
+</h1>
 
         <p className="hero-text">
-          Profesionální stavební společnost z Českých Budějovic.
-          Realizujeme rekonstrukce, novostavby a kompletní stavební práce.
-        </p>
+  GANSKY STAV s.r.o. je profesionální stavební firma z Českých Budějovic.
+  Provádíme rekonstrukce bytů, rekonstrukce domů, stavební práce,
+  novostavby a kompletní realizace projektů po celé České republice.
+</p>
 
         <div className="hero-buttons">
           <a href="#contact" className="hero-btn">

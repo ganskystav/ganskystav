@@ -78,7 +78,7 @@ export default function CompanyPage() {
       <h2>Kontakt</h2>
 
       <p>
-        <strong>Telefon:</strong> +420 601 388 210
+        <strong>Telefon:</strong>  +420 601 311 380
       </p>
 
       <p>

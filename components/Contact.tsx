@@ -19,29 +19,20 @@ export default function Contact() {
 
   return (
     <section id="contact" className="contact">
-
       <div className="container">
-
         <div className="contact-header">
           <span className="section-subtitle">KONTAKT</span>
           <h2>Nezávazná poptávka</h2>
-          <p>
-            Napište nám nebo zavolejte — ozveme se co nejdříve.
-          </p>
+          <p>Napište nám nebo zavolejte — ozveme se co nejdříve.</p>
         </div>
 
         <div className="contact-grid">
-
-          {/* LEFT INFO */}
           <div className="contact-card">
-
             <h3>GANSKY STAV s.r.o.</h3>
 
             <div className="contact-item">
               <span>📞 Telefon</span>
-              <a href="tel:+420601388210">
-                +420 601 311 380
-                </a>
+              <a href="tel:+420601311380">+420 601 311 380</a>
             </div>
 
             <div className="contact-item">
@@ -55,12 +46,9 @@ export default function Contact() {
               <span>📍 Město</span>
               <p>České Budějovice</p>
             </div>
-
           </div>
 
-          {/* FORM */}
           <form className="contact-form" onSubmit={handleSubmit}>
-
             <input
               type="text"
               placeholder="Vaše jméno"
@@ -81,16 +69,10 @@ export default function Contact() {
               onChange={(e) => setMessage(e.target.value)}
             />
 
-            <button type="submit">
-              Odeslat poptávku
-            </button>
-
+            <button type="submit">Odeslat poptávku</button>
           </form>
-
         </div>
-
       </div>
-
     </section>
   );
 }

@@ -101,11 +101,11 @@ export default function RootLayout({
       logo: "https://ganskystav.cz/favicon.ico",
       description:
         "Stavební firma z České republiky. Rekonstrukce bytů, domů, koupelen a stavební práce.",
-      telephone: "+420 601 388 210",
+      telephone: "+420 601 311 380",
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "customer service",
-        telephone: "+420 601 388 210"
+        telephone: "420 601 311 380"
       }
     }),
   }}
